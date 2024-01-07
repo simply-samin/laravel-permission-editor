@@ -1,0 +1,28 @@
+{
+    "name": "simplysamin/laravel-permission-editor",
+    "description": "Assign roles and permissions visually using the Spatie Laravel Permission package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Simplysamin\\LaravelPermissionEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simplysamin\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Samiul Islam",
+            "email": "samiulislamsamin7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/laravel-permission": "^6.0"
+    },
+    "version": "1.0.0"
+}
